@@ -48,64 +48,65 @@
         /* Section Competences */
                 .competences{
                     text-align: center;
+                    margin: 10px 0;
                 }
                 .competences h2{
                     text-align: center;
                     margin: 20px;
                 }
                 .HTML{
-                    border: solid black 10px;
+                    border: solid black 5px;
                     padding: 10px;
                     background-color: rgb(255, 88, 22);
                     margin: 0 10px;
                     border-radius: 25%;
                 }
                 .CSS{
-                    border: solid black 10px;
+                    border: solid black 5px;
                     padding: 10px;
-                    background-color: rgb(255, 88, 22);
+                    background-color: blue;
                     margin: 0 10px;
                     border-radius: 25%;
                 }
                 .JS{
-                    border: solid black 10px;
+                    border: solid black 5px;
                     padding: 10px;
-                    background-color: rgb(255, 88, 22);
+                    background-color: yellow;
                     margin: 0 10px;
                     border-radius: 25%;
                 }
                 .PHP{
-                    border: solid black 10px;
+                    border: solid black 5px;
                     padding: 10px;
-                    background-color: rgb(255, 88, 22);
+                    background-color: rgb(173, 209, 251);
                     margin: 0 10px;
                     border-radius: 25%;
                 }
                 .SQL{
-                    border: solid black 10px;
+                    border: solid black 5px;
                     padding: 10px;
-                    background-color: rgb(255, 88, 22);
+                    background-color: rgb(30, 84, 176);
                     margin: 0 10px;
                     border-radius: 25%;
                 }
                 .Bootstrap{
-                    border: solid black 10px;
+                    border: solid black 5px;
                     padding: 10px;
-                    background-color: rgb(255, 88, 22);
+                    background-color: rgb(164, 69, 254);
                     margin: 0 10px;
                     border-radius: 25%;
                 }
                 .JQuery{
-                    border: solid black 10px;
+                    border: solid black 5px;
                     padding: 10px;
-                    background-color: rgb(255, 88, 22);
+                    background-color: rgb(62, 97, 255);
                     margin: 0 10px;
                     border-radius: 25%;
                 }
                 .Symfony{
-                    border: solid black 10px;
+                    border: solid black 5px;
                     padding: 10px;
-                    background-color: rgb(255, 88, 22);
+                    background-color: rgb(24, 255, 66);
                     margin: 0 10px;
                     border-radius: 25%;
                 }
@@ -117,21 +118,26 @@
                     display: flex;
                     margin-top: 20px;
                     justify-content: center;
+                    margin-bottom: 30px;
                 }
                 .conception{
                     border: solid black 5px;
                     padding: 10px;
-                    background-color: rgb(255, 88, 22);
-                    margin-right: 20px;
+                    background-color: rgb(84, 194, 249);
+                    margin-right: 200px;
+                    margin-top: 20px;
                     border-radius: 5%;
+                    text-align: left;
+                    
                 }
                 .UI_UX{
                     border: solid black 5px;
                     padding: 10px;
-                    background-color: rgb(255, 88, 22);
+                    background-color: rgb(84, 194, 249);
                     margin: 0 10px;
                     border-radius: 5%;
-                    margin-top: 15px;
+                    margin-top: 30px;
+                    text-align: left;
                 }
         /* Fin section competences */
         /* Section projets */
@@ -142,6 +148,13 @@
         }
         .projets h2{
             text-align: center;
+            margin: 0 10px;
+        }
+        .projets button{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            cursor: pointer;
         }
         .cards{
             display: flex;
@@ -149,6 +162,7 @@
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
+            margin-top: 15px;
         }
         .cards h3{
             text-align: center;
@@ -193,7 +207,8 @@
         .projet5_card{
             border: solid black 5px;
             padding: 10px;
-            margin-right: 130px;
+            margin-right: 450px;
+            margin-top: 23px;
             background-color: white;
             border-radius: 10%;
             max-width: 250px;
@@ -203,8 +218,47 @@
             border: solid black 5px;
             padding: 10px;
             margin-right: 130px;
+            margin-top: 23px;
             background-color: white;
             border-radius: 10%;
             max-width: 250px;
             max-height: 250px;
         }
+
+
+
+        /* section formulaire */
+        .formulaire h3{
+            text-align: center;
+            padding: 5px;
+        }
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+            }
+            form div{
+                display: flex;
+                flex-direction: column;
+                margin: 10px;
+            }
+            textarea {
+                width: 250px;  /* Largeur fixe */
+                height: 30px; /* Hauteur fixe */
+                resize: none;  /* Empêche le redimensionnement */
+              }
+              input{
+                width: 250px;
+              }
+              #envoie{
+                width: 250px;
+                margin-top: 10px;
+                padding: 5px;
+                background-color: black;
+                color: white;
+                cursor: pointer;
+              }
+        /* Fin section formulaire */
+
